@@ -9,7 +9,7 @@ import javax.validation.constraints.Size;
 
 @Getter
 @Setter
-public class CreateUserRequestModel {
+public class SignupRequest {
     @NotNull(message = "first name cannot be null")
     @Size(min = 2, message = "first name must not be less than 2 characters")
     private String firstName;
